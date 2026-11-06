@@ -18,3 +18,6 @@ def consultar_estudiantes():
  print("ESTUDIANTES REGISTRADOS")
 for estudiante in estudiantes: 
    print(estudiante)
+
+notas = [8, 9, 10]
+print("El promedio es:", calcular_promedio(notas))
